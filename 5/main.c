@@ -8,7 +8,7 @@
 #include "func.h"
 
 #define LEN_STR (30 + 1)
-
+short g_sss = 10;
 int g_global = 0;
 
 int main(void)
