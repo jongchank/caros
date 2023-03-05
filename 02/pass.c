@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void show(short arr[], int n)
 {
     int i;
