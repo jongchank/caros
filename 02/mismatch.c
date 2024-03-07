@@ -2,18 +2,19 @@
 
 int main(void)
 {
-   int a = 10;
-   int b = 20;
+    int a = 10;
+    int b = 20;
 
-   int *p = &a;
-   *p += 10;
-   printf("%d %d\n", a, b);
+    int *p = &a;
+    *p += 10;
+    printf("%d %d\n", a, b);
 
-   a = 10;
-   b = 20;
-   double *q = &a;
-   *q += 10;
-   printf("%d %d\n", a, b);
+    a = 10;
+    b = 20;
 
-   return 0;
+    double *q = &a;
+    *q += 10;
+    printf("%d %d\n", a, b);
+
+    return 0;
 }
