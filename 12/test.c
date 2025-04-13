@@ -7,7 +7,7 @@
 Ifx_CAN dummy;
 
 #undef MODULE_CAN
-#define MODULE_CAN dummy
+#define MODULE_CAN (*(Ifx_CAN*)&dummy)
 
 int main(void) {
 
